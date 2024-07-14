@@ -20,8 +20,8 @@ package("3dskit-dlang")
 
     os.cp("ys3ds", package:installdir("include"))
     os.cp("btl", package:installdir("include"))
-    os.cp("3ds-d-runtime/druntime/src", package:installdir("include"))
-    os.cp("3ds-d-runtime/phobos", package:installdir("include"))
+    os.cp("3ds-d-runtime/druntime/src/*", package:installdir("include"))
+    os.cp("3ds-d-runtime/phobos/*", package:installdir("include"))
     os.cp("build/3ds/arm/release/*", package:installdir("lib"))
   end)
 
