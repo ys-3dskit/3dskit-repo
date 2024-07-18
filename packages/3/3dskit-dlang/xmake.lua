@@ -7,7 +7,7 @@ package("3dskit-dlang")
     "https://github.com/ys-3dskit/3dskit-dlang.git"
   )
 
-  add_versions("v0.2.2", "4424af7f1ca13b5610a41b861972a5baec9db67f1f00defe67e7658997af0e49")
+  add_versions("v0.2.3", "2c1ccc4558e134de1d0a33f1d393c8abd8d90f56c12c0b2c9b3c084ccc96ed63")
   add_versions("v0.2.1", "fe3b42b5ca5e00bb6c9f4a30309983845640da4ccdc75ba8a41966de43efa6e3")
   add_versions("v0.1.2", "1f621318f084b3c6d96fac8230005fafe81e7e88912dfa7b6f7ea5390491a394")
   add_versions("v0.1.1", "71951125d1762f7c8cbc9d309ec8e1e20790a5f3f41bc1acb3d27d5ef631357d")
