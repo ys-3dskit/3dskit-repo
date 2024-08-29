@@ -11,10 +11,12 @@ These packages do not depend on the devkitpro pacman packages for libraries, tho
 
 ! TODO !
 
-All packages come with D bindings.
+All packages have D bindings in a separate package.
+
+The bindings names are as so: `3ds-curl` → `3ds-d-curl`<!-- , and for use in D code you do not need to depend on the non-D package -->.
 
 Import as so:
 
 ```d
-import ys3dskitd.ctru;
+import ys3ds.ctru;
 ```
