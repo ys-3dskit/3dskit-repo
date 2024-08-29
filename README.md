@@ -7,6 +7,16 @@ For using ys-3dskit to develop 3ds applications in C, C++, or D, this is the Xma
 
 These packages do not depend on the devkitpro pacman packages for libraries, though you still need devkitarm.
 
+## requirements
+
+to build the packages you will need
+- devkitarm
+- libctru installed with dkp pacman
+- citro3d via dkp pacman
+
+// todo remove need for c3d
+// todo remove need for ctru
+
 ## ported libs
 
 package name prefixed with `3ds-`
@@ -16,8 +26,6 @@ package name prefixed with `3ds-`
 - zlib
 
 ## D usage
-
-! TODO !
 
 All packages have D bindings in a separate package.
 
