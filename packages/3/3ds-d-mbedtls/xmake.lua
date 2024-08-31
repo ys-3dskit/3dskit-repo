@@ -12,7 +12,7 @@ package("3ds-d-mbedtls")
   on_install(function (package)
     os.cd("mbedtls")
 
-    os.vrun("xmake f -p 3ds -m release -a arm --toolchain=devkitarm")
+    os.vrun("xmake f -p 3ds -m release -a arm --toolchain=devkitarm -y")
     os.vrun("xmake")
 
     os.cp("ys3ds", package:installdir("include"))
