@@ -29,7 +29,8 @@ package name prefixed with `3ds-`
 
 All packages have D bindings in a separate package.
 
-The portlibs binding names are as so: `3ds-curl` → `3ds-d-curl`<!-- , and for use in D code you do not need to depend on the non-D package -->.
+The portlibs binding names are as so: `3ds-curl` → `3ds-d-curl`, and even for use in D code you will need to depend on the non-D package too.
+(The D packages contain bindings, the main packages contain the binaries).
 
 The bindings for ctru, c3d, and c2d, the 3ds ported D runtime and standard library, and the BTL D library are distributed together in `3dskit-dlang`.
 
